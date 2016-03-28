@@ -1,6 +1,6 @@
 var http = require('http')
 var fs = require('fs')
-var customApi = require('./api')
+var customApi = require('./api/api')
 var browserify = require('browserify')
 
 function handler (req, res) {
